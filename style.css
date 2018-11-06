@@ -97,7 +97,7 @@ a.current {
 	color: #89ccf7;
 }
 
-a#clear-last::after {
+a.clear-last::after {
 	content: none;
 }
 
@@ -281,7 +281,7 @@ figcaption {
 
 .phone a {
 	font-family: 'Roboto', Arial, sans-serif;
-	font-size: 26px;
+	font-size: 25px;
 	color: #333333;
 	font-weight: bold;
 	text-decoration: none; 
@@ -298,7 +298,7 @@ figcaption {
 	width: 36px;
 	height: 35px;
 	background: url(images/phone.png) center center no-repeat;
-	margin-right: 0; 
+	margin-right: -4px; 
 	margin-bottom: -8px;
 }
 
@@ -368,7 +368,7 @@ figcaption {
 	padding-top: 6px;
 }
 
-span.date  p {
+span.date {
 	font-size: 11px;
 	color: #a5a5a5;
 	margin: 0;
@@ -376,7 +376,7 @@ span.date  p {
 
 }
 
-#partner-logo, 
+.partner-logo, 
 .image-box {
 	width: 46px;
 	height: 46px;
@@ -386,7 +386,7 @@ span.date  p {
 	margin-right: 13px;
 }
 
-#partner-logo {
+.partner-logo {
 	width: 91px;
 	height: 79px;
 	padding-top: 10px;
@@ -471,7 +471,7 @@ span.date  p {
 	padding-right: 25px;
 }
 
-a#clear-last::before {
+a.clear-last::before {
 	content: none;
 }
 
@@ -479,4 +479,10 @@ a#clear-last::before {
 
 .clear {
 	clear: both;
+}
+
+iframe {
+	height: 330px;	
+	width: 570px;
+	border: none;
 }
